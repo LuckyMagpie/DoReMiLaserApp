@@ -1,0 +1,221 @@
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:screenOrientation="portrait"
+    android:configChanges="orientation|keyboardHidden"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/g">
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="100dp"
+        android:id="@+id/play"
+        android:layout_x="-50dp"
+        android:layout_y="20dp"
+        android:background="@drawable/play"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/stop"
+        android:layout_x="83dp"
+        android:layout_y="20dp"
+        android:background="@drawable/stop" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/record"
+        android:layout_x="200dp"
+        android:layout_y="20dp"
+        android:background="@drawable/record"
+        android:shadowColor="#ff09fff8" />
+
+    <Button
+        android:layout_width="146dp"
+        android:layout_height="136dp"
+        android:id="@+id/tap"
+        android:layout_x="420dp"
+        android:layout_y="320dp"
+        android:background="@drawable/tap" />
+
+    <Button
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:id="@+id/metro"
+        android:layout_x="420dp"
+        android:layout_y="500dp"
+        android:background="@drawable/metro" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/instA"
+        android:layout_x="9dp"
+        android:layout_y="217dp"
+        android:background="@drawable/instument" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/instE"
+        android:layout_x="157dp"
+        android:layout_y="217dp"
+        android:background="@drawable/instument" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/instB"
+        android:layout_x="9dp"
+        android:layout_y="314dp"
+        android:background="@drawable/instument" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/instF"
+        android:layout_x="157dp"
+        android:layout_y="314dp"
+        android:background="@drawable/instument" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/instC"
+        android:layout_x="9dp"
+        android:layout_y="414dp"
+        android:background="@drawable/instument" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/instG"
+        android:layout_x="157dp"
+        android:layout_y="414dp"
+        android:background="@drawable/instument" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/instD"
+        android:layout_x="9dp"
+        android:layout_y="510dp"
+        android:background="@drawable/instument" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/instH"
+        android:layout_x="157dp"
+        android:layout_y="510dp"
+        android:background="@drawable/instument" />
+
+    <Button
+        android:layout_width="102dp"
+        android:layout_height="83dp"
+        android:id="@+id/eff1"
+        android:layout_x="9dp"
+        android:layout_y="726dp"
+        android:background="@drawable/effect" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/eff3"
+        android:layout_x="157dp"
+        android:layout_y="726dp"
+        android:background="@drawable/effect" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/eff4"
+        android:layout_x="157dp"
+        android:layout_y="830dp"
+        android:background="@drawable/effect" />
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="83dp"
+        android:id="@+id/eff2"
+        android:layout_x="9dp"
+        android:layout_y="830dp"
+        android:background="@drawable/effect" />
+
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ip"
+        android:layout_x="363dp"
+        android:layout_y="35dp"
+        android:editable="true"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/port"
+        android:layout_x="363dp"
+        android:layout_y="118dp"
+        android:editable="true"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:typeface="monospace"
+        android:autoText="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instruments"
+        android:id="@+id/Instruments"
+        android:layout_x="5dp"
+        android:layout_y="160dp"
+        android:typeface="monospace"
+        android:textSize="42sp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Effects"
+        android:id="@+id/textView"
+        android:layout_x="5dp"
+        android:layout_y="650dp"
+        android:typeface="monospace"
+        android:textSize="42sp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="58dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="IP"
+        android:id="@+id/textView2"
+        android:layout_x="370dp"
+        android:layout_y="-2dp"
+        android:textSize="32dp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="58dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Port"
+        android:id="@+id/textView3"
+        android:layout_x="370dp"
+        android:layout_y="80dp"
+        android:textSize="32dp"
+        android:typeface="monospace" />
+
+</AbsoluteLayout>
+
