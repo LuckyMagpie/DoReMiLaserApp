@@ -12,10 +12,10 @@
     android:id="@+id/g">
 
     <Button
-        android:layout_width="135dp"
+        android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/play"
-        android:layout_x="-50dp"
+        android:layout_x="0dp"
         android:layout_y="20dp"
         android:background="@drawable/play"
         />
@@ -24,7 +24,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/stop"
-        android:layout_x="83dp"
+        android:layout_x="110dp"
         android:layout_y="20dp"
         android:background="@drawable/stop" />
 
@@ -32,7 +32,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/record"
-        android:layout_x="200dp"
+        android:layout_x="220dp"
         android:layout_y="20dp"
         android:background="@drawable/record"
         android:shadowColor="#ff09fff8" />
@@ -59,7 +59,7 @@
         android:id="@+id/instA"
         android:layout_x="9dp"
         android:layout_y="217dp"
-        android:background="@drawable/instument" />
+        android:background="@drawable/instrument" />
 
     <Button
         android:layout_width="104dp"
@@ -67,7 +67,7 @@
         android:id="@+id/instE"
         android:layout_x="157dp"
         android:layout_y="217dp"
-        android:background="@drawable/instument" />
+        android:background="@drawable/instrument" />
 
     <Button
         android:layout_width="104dp"
@@ -75,7 +75,7 @@
         android:id="@+id/instB"
         android:layout_x="9dp"
         android:layout_y="314dp"
-        android:background="@drawable/instument" />
+        android:background="@drawable/instrument" />
 
     <Button
         android:layout_width="104dp"
@@ -83,7 +83,7 @@
         android:id="@+id/instF"
         android:layout_x="157dp"
         android:layout_y="314dp"
-        android:background="@drawable/instument" />
+        android:background="@drawable/instrument" />
 
     <Button
         android:layout_width="104dp"
@@ -91,7 +91,7 @@
         android:id="@+id/instC"
         android:layout_x="9dp"
         android:layout_y="414dp"
-        android:background="@drawable/instument" />
+        android:background="@drawable/instrument" />
 
     <Button
         android:layout_width="104dp"
@@ -99,7 +99,7 @@
         android:id="@+id/instG"
         android:layout_x="157dp"
         android:layout_y="414dp"
-        android:background="@drawable/instument" />
+        android:background="@drawable/instrument" />
 
     <Button
         android:layout_width="104dp"
@@ -107,7 +107,7 @@
         android:id="@+id/instD"
         android:layout_x="9dp"
         android:layout_y="510dp"
-        android:background="@drawable/instument" />
+        android:background="@drawable/instrument" />
 
     <Button
         android:layout_width="104dp"
@@ -115,7 +115,7 @@
         android:id="@+id/instH"
         android:layout_x="157dp"
         android:layout_y="510dp"
-        android:background="@drawable/instument" />
+        android:background="@drawable/instrument" />
 
     <Button
         android:layout_width="102dp"
@@ -173,49 +173,37 @@
         android:typeface="monospace"
         android:autoText="false" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Instruments"
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
         android:id="@+id/labelInstru"
         android:layout_x="5dp"
         android:layout_y="160dp"
-        android:typeface="monospace"
-        android:textSize="42sp"
-        android:textIsSelectable="false" />
+        android:src="@drawable/instruments" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Effects"
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="50dp"
         android:id="@+id/labelEffects"
         android:layout_x="5dp"
         android:layout_y="650dp"
-        android:typeface="monospace"
-        android:textSize="42sp"
-        android:textIsSelectable="false" />
+        android:src="@drawable/effects" />
 
-    <TextView
-        android:layout_width="105dp"
-        android:layout_height="58dp"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="IP"
-        android:id="@+id/labelIP"
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="55dp"
+        android:id="@+id/labelIp"
         android:layout_x="370dp"
-        android:layout_y="-2dp"
-        android:textSize="32dp"
-        android:typeface="monospace" />
+        android:layout_y="-20dp"
+        android:src="@drawable/ip" />
 
-    <TextView
-        android:layout_width="105dp"
-        android:layout_height="58dp"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Port"
-        android:id="@+id/labelPort"
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="41dp"
+        android:id="@+id/labelport"
         android:layout_x="370dp"
         android:layout_y="80dp"
-        android:textSize="32dp"
-        android:typeface="monospace" />
+        android:src="@drawable/port" />
 
 </AbsoluteLayout>
 
